@@ -411,7 +411,7 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
-API_KEY = "AIzaSyCPx7fUInSQN-OQDVuJ1DNUSsHOTZu47DE"
+API_KEY = "GEMINI_API"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 chat = model.start_chat()
