@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f8ff;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-box {
+  display: flex;
+  width: 90%;
+  max-width: 900px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.left-section, .right-section {
+  padding: 40px 30px;
+  width: 50%;
+}
+
+.left-section {
+  background: #fef3f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-section h1 {
+  color: #ec4899;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.illustration {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.benefits {
+  list-style: none;
+  padding: 0;
+  color: #444;
+}
+
+.benefits li {
+  margin: 6px 0;
+}
+
+.right-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form input, .form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.form button {
+  width: 100%;
+  background: #ec4899;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form button:hover {
+  background: #d93686;
+}
+
+.toggle-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #666;
+}
+
+.toggle-text span {
+  color: #ec4899;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.flash-messages {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+  <title>Matra AI</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .navbar {
+      background: #fff;
+      padding: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      background: linear-gradient(to right, #ec4899, #8b5cf6);
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 50%;
+      font-weight: bold;
+    }
+
+    .brand {
+      font-size: 1.2rem;
+      margin-left: 12px;
+      flex-grow: 1;
+    }
+
+    .auth-buttons button {
+      margin-left: 10px;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .login {
+      background: none;
+      color: #ec4899;
+    }
+
+    .signup {
+      background: #ec4899;
+      color: white;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #555;
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+
+    .hero-buttons button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .get-started {
+      background: #ec4899;
+      color: white;
+    }
+
+    .learn-more {
+      background: white;
+      color: #ec4899;
+      border: 1px solid #ec4899;
+    }
+
+    .features {
+      padding: 40px 20px;
+      background: #fff;
+      text-align: center;
+    }
+
+    .features-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .feature-card {
+      background: #fef3f9;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 16px;
+      width: 260px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .feature-card h3 {
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .feature-card p {
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    .footer {
+      background: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer .reviews {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .footer .copyright {
+      font-size: 0.75rem;
+      margin-top: 10px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <i class="bi bi-heart-pulse fs-2 me-3"></i>
+      <div class="brand">Matra AI</div>
+      <div class="auth-buttons">
+        
+<a href="{{ url_for('login') }}" class="btn btn-primary">Login</a>
+<a href="{{ url_for('login') }}#signup" class="btn btn-outline-primary">Sign Up</a>
+
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>AI-Powered Pregnancy Companion</h1>
+      <p>Personalized guidance and health tracking tailored for every stage of your pregnancy.</p>
+      <div class="hero-buttons">
+        <button class="get-started" onclick="window.location.href='{{ url_for('login') }}'">Get Started</button>
+        <button class="learn-more">Learn More</button>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-card"><h3>24/7 Support</h3><p>Get answers to your questions anytime, day or night.</p></div>
+        <div class="feature-card"><h3>Nutrition Guide</h3><p>Personalized meal plans and nutritional advice.</p></div>
+        <div class="feature-card"><h3>Mental Health Check</h3><p>Emotional wellbeing assessments and tips.</p></div>
+        <div class="feature-card"><h3>Symptom Checker</h3><p>Know when to seek help for pregnancy symptoms.</p></div>
+        <div class="feature-card"><h3>Privacy Protection</h3><p>Encrypted health data stored securely.</p></div>
+        <div class="feature-card"><h3>Medicines Order</h3><p>Order medicines online safely.</p></div>
+        <div class="feature-card"><h3>Nearby Hospital Map</h3><p>Locate hospitals and clinics instantly.</p></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="copyright">© 2025 Maternal Health Monitor. All rights reserved.</div>
+    </footer>
+  </div>
+</body>
+</html>

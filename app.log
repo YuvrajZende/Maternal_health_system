@@ -1,0 +1,577 @@
+2025-06-28 01:57:36,986 [WARNING]  * Debugger is active!
+2025-06-28 01:57:37,003 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 02:02:21,969 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 02:02:28,723 [WARNING]  * Debugger is active!
+2025-06-28 02:02:28,734 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 02:08:48,428 [INFO] 127.0.0.1 - - [28/Jun/2025 02:08:48] "GET /patient HTTP/1.1" 200 -
+2025-06-28 02:09:30,155 [INFO] 127.0.0.1 - - [28/Jun/2025 02:09:30] "[35m[1mPOST /upload-report HTTP/1.1[0m" 500 -
+2025-06-28 02:09:30,185 [INFO] 127.0.0.1 - - [28/Jun/2025 02:09:30] "GET /upload-report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-06-28 02:09:30,188 [INFO] 127.0.0.1 - - [28/Jun/2025 02:09:30] "GET /upload-report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-06-28 02:09:30,203 [INFO] 127.0.0.1 - - [28/Jun/2025 02:09:30] "GET /upload-report?__debugger__=yes&cmd=resource&f=console.png&s=PlchuvcyuT28F9Dl8O3c HTTP/1.1" 200 -
+2025-06-28 02:09:30,220 [INFO] 127.0.0.1 - - [28/Jun/2025 02:09:30] "GET /upload-report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-06-28 02:13:04,367 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 02:13:11,252 [WARNING]  * Debugger is active!
+2025-06-28 02:13:11,267 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 02:13:12,861 [INFO] 127.0.0.1 - - [28/Jun/2025 02:13:12] "[35m[1mPOST /upload-report HTTP/1.1[0m" 500 -
+2025-06-28 02:13:12,894 [INFO] 127.0.0.1 - - [28/Jun/2025 02:13:12] "[36mGET /upload-report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-28 02:13:12,897 [INFO] 127.0.0.1 - - [28/Jun/2025 02:13:12] "[36mGET /upload-report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-28 02:13:16,600 [INFO] 127.0.0.1 - - [28/Jun/2025 02:13:16] "GET /upload-report?__debugger__=yes&cmd=resource&f=console.png&s=Ic5UFa650izbF3iSsvS1 HTTP/1.1" 200 -
+2025-06-28 02:13:16,622 [INFO] 127.0.0.1 - - [28/Jun/2025 02:13:16] "[36mGET /upload-report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-06-28 02:13:18,511 [INFO] 127.0.0.1 - - [28/Jun/2025 02:13:18] "[35m[1mPOST /upload-report HTTP/1.1[0m" 500 -
+2025-06-28 02:13:18,542 [INFO] 127.0.0.1 - - [28/Jun/2025 02:13:18] "[36mGET /upload-report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-28 02:13:18,546 [INFO] 127.0.0.1 - - [28/Jun/2025 02:13:18] "[36mGET /upload-report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-28 02:13:18,570 [INFO] 127.0.0.1 - - [28/Jun/2025 02:13:18] "[36mGET /upload-report?__debugger__=yes&cmd=resource&f=console.png&s=Ic5UFa650izbF3iSsvS1 HTTP/1.1[0m" 304 -
+2025-06-28 02:13:18,586 [INFO] 127.0.0.1 - - [28/Jun/2025 02:13:18] "[36mGET /upload-report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-06-28 02:13:24,537 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 02:13:31,075 [WARNING]  * Debugger is active!
+2025-06-28 02:13:45,646 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 02:13:45,647 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 02:13:45,650 [INFO]  * Restarting with stat
+2025-06-28 02:13:50,183 [WARNING]  * Debugger is active!
+2025-06-28 02:13:50,198 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 02:13:57,429 [INFO] 127.0.0.1 - - [28/Jun/2025 02:13:57] "GET / HTTP/1.1" 200 -
+2025-06-28 02:14:03,002 [INFO] 127.0.0.1 - - [28/Jun/2025 02:14:03] "GET /login HTTP/1.1" 200 -
+2025-06-28 02:14:03,057 [INFO] 127.0.0.1 - - [28/Jun/2025 02:14:03] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 02:14:10,257 [INFO] 127.0.0.1 - - [28/Jun/2025 02:14:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 02:14:10,309 [INFO] 127.0.0.1 - - [28/Jun/2025 02:14:10] "GET /patient HTTP/1.1" 200 -
+2025-06-28 02:14:34,178 [INFO] 127.0.0.1 - - [28/Jun/2025 02:14:34] "[35m[1mPOST /upload-report HTTP/1.1[0m" 500 -
+2025-06-28 02:14:34,214 [INFO] 127.0.0.1 - - [28/Jun/2025 02:14:34] "[36mGET /upload-report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-28 02:14:34,216 [INFO] 127.0.0.1 - - [28/Jun/2025 02:14:34] "[36mGET /upload-report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-28 02:14:34,233 [INFO] 127.0.0.1 - - [28/Jun/2025 02:14:34] "GET /upload-report?__debugger__=yes&cmd=resource&f=console.png&s=mX3LZ6N54jfpdlwkCEu9 HTTP/1.1" 200 -
+2025-06-28 02:15:54,814 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 02:15:57,183 [INFO]  * Restarting with stat
+2025-06-28 02:16:01,512 [WARNING]  * Debugger is active!
+2025-06-28 02:16:01,521 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 02:16:51,418 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 02:16:51,422 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 02:16:51,425 [INFO]  * Restarting with stat
+2025-06-28 02:16:55,791 [WARNING]  * Debugger is active!
+2025-06-28 02:16:55,802 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 02:19:25,232 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 02:19:25,233 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 02:19:25,236 [INFO]  * Restarting with stat
+2025-06-28 02:19:29,727 [WARNING]  * Debugger is active!
+2025-06-28 02:19:29,744 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 02:19:41,612 [INFO] [UPLOAD] Patient sana (ID: 3) uploaded 'Doc2.docx' titled 'blood'
+2025-06-28 02:19:41,615 [INFO] 127.0.0.1 - - [28/Jun/2025 02:19:41] "[32mPOST /upload-report HTTP/1.1[0m" 302 -
+2025-06-28 02:19:41,671 [INFO] 127.0.0.1 - - [28/Jun/2025 02:19:41] "GET /patient HTTP/1.1" 200 -
+2025-06-28 02:20:12,568 [INFO] [UPLOAD] Patient sana (ID: 3) uploaded 'Doc1.docx' titled 'blood'
+2025-06-28 02:20:12,571 [INFO] 127.0.0.1 - - [28/Jun/2025 02:20:12] "[32mPOST /upload-report HTTP/1.1[0m" 302 -
+2025-06-28 02:20:12,588 [INFO] 127.0.0.1 - - [28/Jun/2025 02:20:12] "GET /patient HTTP/1.1" 200 -
+2025-06-28 02:20:18,999 [INFO] 127.0.0.1 - - [28/Jun/2025 02:20:18] "GET /static/uploads/Doc2.docx HTTP/1.1" 200 -
+2025-06-28 02:43:34,659 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 02:43:34,660 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 02:43:34,662 [INFO]  * Restarting with stat
+2025-06-28 02:43:39,980 [WARNING]  * Debugger is active!
+2025-06-28 02:43:39,990 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 02:43:46,730 [INFO] 127.0.0.1 - - [28/Jun/2025 02:43:46] "GET / HTTP/1.1" 200 -
+2025-06-28 02:43:51,664 [INFO] 127.0.0.1 - - [28/Jun/2025 02:43:51] "GET /login HTTP/1.1" 200 -
+2025-06-28 02:43:51,717 [INFO] 127.0.0.1 - - [28/Jun/2025 02:43:51] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 02:44:00,929 [INFO] 127.0.0.1 - - [28/Jun/2025 02:44:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 02:44:01,151 [INFO] 127.0.0.1 - - [28/Jun/2025 02:44:01] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 02:44:17,459 [INFO] 127.0.0.1 - - [28/Jun/2025 02:44:17] "[36mGET /static/uploads/Doc2.docx HTTP/1.1[0m" 304 -
+2025-06-28 02:44:49,143 [INFO] 127.0.0.1 - - [28/Jun/2025 02:44:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 02:44:49,160 [INFO] 127.0.0.1 - - [28/Jun/2025 02:44:49] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 02:58:53,487 [INFO] 127.0.0.1 - - [28/Jun/2025 02:58:53] "[35m[1mGET /doctor HTTP/1.1[0m" 500 -
+2025-06-28 02:58:53,526 [INFO] 127.0.0.1 - - [28/Jun/2025 02:58:53] "GET /doctor?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-06-28 02:58:53,529 [INFO] 127.0.0.1 - - [28/Jun/2025 02:58:53] "GET /doctor?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-06-28 02:58:53,584 [INFO] 127.0.0.1 - - [28/Jun/2025 02:58:53] "GET /doctor?__debugger__=yes&cmd=resource&f=console.png&s=FRH1StuYN3nhYhpz7vED HTTP/1.1" 200 -
+2025-06-28 02:58:53,604 [INFO] 127.0.0.1 - - [28/Jun/2025 02:58:53] "GET /doctor?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-06-28 02:59:43,756 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 02:59:46,186 [INFO]  * Restarting with stat
+2025-06-28 02:59:52,019 [WARNING]  * Debugger is active!
+2025-06-28 02:59:52,034 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 03:01:47,887 [INFO] 127.0.0.1 - - [28/Jun/2025 03:01:47] "[35m[1mGET /doctor HTTP/1.1[0m" 500 -
+2025-06-28 03:01:47,927 [INFO] 127.0.0.1 - - [28/Jun/2025 03:01:47] "[36mGET /doctor?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-28 03:01:47,937 [INFO] 127.0.0.1 - - [28/Jun/2025 03:01:47] "[36mGET /doctor?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-28 03:01:48,000 [INFO] 127.0.0.1 - - [28/Jun/2025 03:01:48] "GET /doctor?__debugger__=yes&cmd=resource&f=console.png&s=jtO8yrYdA8qZD59n3v5N HTTP/1.1" 200 -
+2025-06-28 03:01:48,022 [INFO] 127.0.0.1 - - [28/Jun/2025 03:01:48] "[36mGET /doctor?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-06-28 03:02:13,347 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 03:02:13,348 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 03:02:13,351 [INFO]  * Restarting with stat
+2025-06-28 03:02:18,054 [WARNING]  * Debugger is active!
+2025-06-28 03:02:18,064 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 03:02:19,638 [INFO] 127.0.0.1 - - [28/Jun/2025 03:02:19] "GET / HTTP/1.1" 200 -
+2025-06-28 03:02:21,494 [INFO] 127.0.0.1 - - [28/Jun/2025 03:02:21] "GET /login HTTP/1.1" 200 -
+2025-06-28 03:02:21,536 [INFO] 127.0.0.1 - - [28/Jun/2025 03:02:21] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 03:02:33,993 [INFO] 127.0.0.1 - - [28/Jun/2025 03:02:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 03:02:34,146 [INFO] 127.0.0.1 - - [28/Jun/2025 03:02:34] "[35m[1mGET /doctor HTTP/1.1[0m" 500 -
+2025-06-28 03:02:34,191 [INFO] 127.0.0.1 - - [28/Jun/2025 03:02:34] "[36mGET /doctor?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-28 03:02:34,192 [INFO] 127.0.0.1 - - [28/Jun/2025 03:02:34] "[36mGET /doctor?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-28 03:02:34,207 [INFO] 127.0.0.1 - - [28/Jun/2025 03:02:34] "GET /doctor?__debugger__=yes&cmd=resource&f=console.png&s=yiDzMJm7riqVqzk20b0P HTTP/1.1" 200 -
+2025-06-28 03:15:26,021 [INFO] 127.0.0.1 - - [28/Jun/2025 03:15:26] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 03:15:57,680 [INFO] 127.0.0.1 - - [28/Jun/2025 03:15:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-28 03:15:57,691 [INFO] 127.0.0.1 - - [28/Jun/2025 03:15:57] "GET /login HTTP/1.1" 200 -
+2025-06-28 03:15:57,753 [INFO] 127.0.0.1 - - [28/Jun/2025 03:15:57] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 03:16:14,423 [INFO] 127.0.0.1 - - [28/Jun/2025 03:16:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 03:16:14,475 [INFO] 127.0.0.1 - - [28/Jun/2025 03:16:14] "GET /patient HTTP/1.1" 200 -
+2025-06-28 03:16:41,542 [INFO] 127.0.0.1 - - [28/Jun/2025 03:16:41] "[32mPOST /update-patient HTTP/1.1[0m" 302 -
+2025-06-28 03:16:41,557 [INFO] 127.0.0.1 - - [28/Jun/2025 03:16:41] "GET /patient HTTP/1.1" 200 -
+2025-06-28 03:16:52,049 [INFO] 127.0.0.1 - - [28/Jun/2025 03:16:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 03:16:52,078 [INFO] 127.0.0.1 - - [28/Jun/2025 03:16:52] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 03:22:23,385 [INFO] 127.0.0.1 - - [28/Jun/2025 03:22:23] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 03:31:40,550 [INFO] 127.0.0.1 - - [28/Jun/2025 03:31:40] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 03:39:02,412 [INFO] 127.0.0.1 - - [28/Jun/2025 03:39:02] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 03:42:01,787 [INFO] 127.0.0.1 - - [28/Jun/2025 03:42:01] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 03:42:12,679 [INFO] 127.0.0.1 - - [28/Jun/2025 03:42:12] "GET /login HTTP/1.1" 200 -
+2025-06-28 03:42:15,802 [INFO] 127.0.0.1 - - [28/Jun/2025 03:42:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 03:42:15,809 [INFO] 127.0.0.1 - - [28/Jun/2025 03:42:15] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 03:44:57,147 [INFO] 127.0.0.1 - - [28/Jun/2025 03:44:57] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 03:45:09,399 [INFO] 127.0.0.1 - - [28/Jun/2025 03:45:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 03:45:09,406 [INFO] 127.0.0.1 - - [28/Jun/2025 03:45:09] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 03:48:02,756 [INFO] 127.0.0.1 - - [28/Jun/2025 03:48:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 03:48:02,762 [INFO] 127.0.0.1 - - [28/Jun/2025 03:48:02] "GET /patient HTTP/1.1" 200 -
+2025-06-28 03:48:16,049 [INFO] 127.0.0.1 - - [28/Jun/2025 03:48:16] "[32mPOST /update-patient HTTP/1.1[0m" 302 -
+2025-06-28 03:48:16,056 [INFO] 127.0.0.1 - - [28/Jun/2025 03:48:16] "GET /patient HTTP/1.1" 200 -
+2025-06-28 03:49:09,264 [INFO] 127.0.0.1 - - [28/Jun/2025 03:49:09] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:49:19,335 [INFO] 127.0.0.1 - - [28/Jun/2025 03:49:19] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:49:28,032 [INFO] 127.0.0.1 - - [28/Jun/2025 03:49:28] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:49:57,130 [INFO] 127.0.0.1 - - [28/Jun/2025 03:49:57] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:50:13,028 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 03:50:15,225 [INFO]  * Restarting with stat
+2025-06-28 03:50:17,452 [WARNING]  * Debugger is active!
+2025-06-28 03:50:17,456 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 03:50:19,056 [INFO] 127.0.0.1 - - [28/Jun/2025 03:50:19] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:54:39,253 [INFO] 127.0.0.1 - - [28/Jun/2025 03:54:39] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:54:50,113 [INFO] 127.0.0.1 - - [28/Jun/2025 03:54:50] "POST /api/sos HTTP/1.1" 200 -
+2025-06-28 03:54:50,677 [INFO] 127.0.0.1 - - [28/Jun/2025 03:54:50] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:55:16,224 [INFO] 127.0.0.1 - - [28/Jun/2025 03:55:16] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:55:55,346 [INFO] 127.0.0.1 - - [28/Jun/2025 03:55:55] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:56:30,437 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 03:56:32,600 [INFO]  * Restarting with stat
+2025-06-28 03:56:34,854 [WARNING]  * Debugger is active!
+2025-06-28 03:56:34,858 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 03:56:50,332 [INFO] 127.0.0.1 - - [28/Jun/2025 03:56:50] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:57:20,667 [INFO] 127.0.0.1 - - [28/Jun/2025 03:57:20] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:57:27,852 [INFO] 127.0.0.1 - - [28/Jun/2025 03:57:27] "GET /patient HTTP/1.1" 200 -
+2025-06-28 03:57:40,033 [INFO] 127.0.0.1 - - [28/Jun/2025 03:57:40] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:57:54,033 [INFO] 127.0.0.1 - - [28/Jun/2025 03:57:54] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:58:13,995 [INFO] 127.0.0.1 - - [28/Jun/2025 03:58:13] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:58:29,265 [INFO] 127.0.0.1 - - [28/Jun/2025 03:58:29] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 03:59:01,170 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 03:59:03,338 [INFO]  * Restarting with stat
+2025-06-28 03:59:05,527 [WARNING]  * Debugger is active!
+2025-06-28 03:59:05,531 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 03:59:11,140 [INFO] 127.0.0.1 - - [28/Jun/2025 03:59:11] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 04:08:31,614 [INFO] 127.0.0.1 - - [28/Jun/2025 04:08:31] "[32mPOST /update-patient HTTP/1.1[0m" 302 -
+2025-06-28 04:08:31,642 [INFO] 127.0.0.1 - - [28/Jun/2025 04:08:31] "GET /patient HTTP/1.1" 200 -
+2025-06-28 04:08:43,825 [INFO] 127.0.0.1 - - [28/Jun/2025 04:08:43] "[32mPOST /update-patient HTTP/1.1[0m" 302 -
+2025-06-28 04:08:43,831 [INFO] 127.0.0.1 - - [28/Jun/2025 04:08:43] "GET /patient HTTP/1.1" 200 -
+2025-06-28 04:14:39,630 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 04:14:41,811 [INFO]  * Restarting with stat
+2025-06-28 04:14:43,972 [WARNING]  * Debugger is active!
+2025-06-28 04:14:43,976 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 04:16:35,746 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 04:16:37,912 [INFO]  * Restarting with stat
+2025-06-28 04:16:40,485 [WARNING]  * Debugger is active!
+2025-06-28 04:16:40,488 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 04:19:05,912 [INFO] 127.0.0.1 - - [28/Jun/2025 04:19:05] "GET /patient HTTP/1.1" 200 -
+2025-06-28 04:19:31,101 [INFO] 127.0.0.1 - - [28/Jun/2025 04:19:31] "GET /patient HTTP/1.1" 200 -
+2025-06-28 04:19:51,243 [INFO] 127.0.0.1 - - [28/Jun/2025 04:19:51] "GET /patient HTTP/1.1" 200 -
+2025-06-28 04:19:52,805 [INFO] 127.0.0.1 - - [28/Jun/2025 04:19:52] "GET /patient HTTP/1.1" 200 -
+2025-06-28 04:20:26,008 [INFO] 127.0.0.1 - - [28/Jun/2025 04:20:26] "GET /patient HTTP/1.1" 200 -
+2025-06-28 04:20:34,798 [INFO] 127.0.0.1 - - [28/Jun/2025 04:20:34] "GET /patient HTTP/1.1" 200 -
+2025-06-28 04:20:38,967 [INFO] 127.0.0.1 - - [28/Jun/2025 04:20:38] "GET /patient HTTP/1.1" 200 -
+2025-06-28 04:43:28,103 [INFO] 127.0.0.1 - - [28/Jun/2025 04:43:28] "GET /login HTTP/1.1" 200 -
+2025-06-28 04:43:34,599 [INFO] 127.0.0.1 - - [28/Jun/2025 04:43:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 04:43:34,620 [INFO] 127.0.0.1 - - [28/Jun/2025 04:43:34] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 04:47:25,204 [INFO] 127.0.0.1 - - [28/Jun/2025 04:47:25] "[32mPOST /update-appointment-status HTTP/1.1[0m" 302 -
+2025-06-28 04:47:25,211 [INFO] 127.0.0.1 - - [28/Jun/2025 04:47:25] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 05:10:40,845 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 05:10:43,032 [INFO]  * Restarting with stat
+2025-06-28 05:10:46,945 [WARNING]  * Debugger is active!
+2025-06-28 05:10:46,949 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 05:29:39,842 [INFO] 127.0.0.1 - - [28/Jun/2025 05:29:39] "GET /login HTTP/1.1" 200 -
+2025-06-28 05:29:40,786 [INFO] 127.0.0.1 - - [28/Jun/2025 05:29:40] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 05:29:41,587 [INFO] 127.0.0.1 - - [28/Jun/2025 05:29:41] "GET /login HTTP/1.1" 200 -
+2025-06-28 05:30:41,135 [INFO] 127.0.0.1 - - [28/Jun/2025 05:30:41] "GET /login HTTP/1.1" 200 -
+2025-06-28 05:30:41,154 [INFO] 127.0.0.1 - - [28/Jun/2025 05:30:41] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 05:31:41,663 [INFO] 127.0.0.1 - - [28/Jun/2025 05:31:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 05:31:41,671 [INFO] 127.0.0.1 - - [28/Jun/2025 05:31:41] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 05:33:52,059 [INFO] 127.0.0.1 - - [28/Jun/2025 05:33:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-28 05:33:52,064 [INFO] 127.0.0.1 - - [28/Jun/2025 05:33:52] "GET /login HTTP/1.1" 200 -
+2025-06-28 05:33:52,083 [INFO] 127.0.0.1 - - [28/Jun/2025 05:33:52] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 05:33:58,215 [INFO] 127.0.0.1 - - [28/Jun/2025 05:33:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 05:33:58,232 [INFO] 127.0.0.1 - - [28/Jun/2025 05:33:58] "GET /patient HTTP/1.1" 200 -
+2025-06-28 05:36:29,261 [INFO] 127.0.0.1 - - [28/Jun/2025 05:36:29] "[32mPOST /book-appointment HTTP/1.1[0m" 302 -
+2025-06-28 05:36:29,268 [INFO] 127.0.0.1 - - [28/Jun/2025 05:36:29] "GET /patient HTTP/1.1" 200 -
+2025-06-28 05:44:07,089 [INFO] 127.0.0.1 - - [28/Jun/2025 05:44:07] "GET /login HTTP/1.1" 200 -
+2025-06-28 05:44:07,822 [INFO] 127.0.0.1 - - [28/Jun/2025 05:44:07] "[32mGET /doctor HTTP/1.1[0m" 302 -
+2025-06-28 05:44:07,827 [INFO] 127.0.0.1 - - [28/Jun/2025 05:44:07] "GET /login HTTP/1.1" 200 -
+2025-06-28 05:44:08,455 [INFO] 127.0.0.1 - - [28/Jun/2025 05:44:08] "GET /login HTTP/1.1" 200 -
+2025-06-28 05:46:49,601 [INFO] 127.0.0.1 - - [28/Jun/2025 05:46:49] "GET /login HTTP/1.1" 200 -
+2025-06-28 05:46:49,622 [INFO] 127.0.0.1 - - [28/Jun/2025 05:46:49] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 05:47:00,588 [INFO] 127.0.0.1 - - [28/Jun/2025 05:47:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 05:47:00,645 [INFO] 127.0.0.1 - - [28/Jun/2025 05:47:00] "GET /patient HTTP/1.1" 200 -
+2025-06-28 05:47:34,168 [INFO] 127.0.0.1 - - [28/Jun/2025 05:47:34] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 05:49:46,271 [INFO] [UPLOAD] Patient sana (ID: 3) uploaded 'cbc.docx' titled 'bool repot'
+2025-06-28 05:49:46,273 [INFO] 127.0.0.1 - - [28/Jun/2025 05:49:46] "[32mPOST /upload-report HTTP/1.1[0m" 302 -
+2025-06-28 05:49:46,280 [INFO] 127.0.0.1 - - [28/Jun/2025 05:49:46] "GET /patient HTTP/1.1" 200 -
+2025-06-28 06:10:21,249 [INFO] 127.0.0.1 - - [28/Jun/2025 06:10:21] "GET /patient HTTP/1.1" 200 -
+2025-06-28 06:10:43,039 [WARNING] [UPLOAD] Patient 3 submitted with empty filename.
+2025-06-28 06:10:43,040 [INFO] 127.0.0.1 - - [28/Jun/2025 06:10:43] "[32mPOST /upload-report HTTP/1.1[0m" 302 -
+2025-06-28 06:10:43,047 [INFO] 127.0.0.1 - - [28/Jun/2025 06:10:43] "GET /patient HTTP/1.1" 200 -
+2025-06-28 06:11:04,706 [INFO] [UPLOAD] Patient sana (ID: 3) uploaded 'cbc.docx' titled 'blood report'
+2025-06-28 06:11:04,707 [INFO] 127.0.0.1 - - [28/Jun/2025 06:11:04] "[32mPOST /upload-report HTTP/1.1[0m" 302 -
+2025-06-28 06:11:04,714 [INFO] 127.0.0.1 - - [28/Jun/2025 06:11:04] "GET /patient HTTP/1.1" 200 -
+2025-06-28 06:11:15,247 [INFO] 127.0.0.1 - - [28/Jun/2025 06:11:15] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 06:11:27,109 [INFO] 127.0.0.1 - - [28/Jun/2025 06:11:27] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 06:17:14,620 [INFO] 127.0.0.1 - - [28/Jun/2025 06:17:14] "GET /patient HTTP/1.1" 200 -
+2025-06-28 06:17:47,392 [INFO] 127.0.0.1 - - [28/Jun/2025 06:17:47] "GET /patient?file=cbc.docx HTTP/1.1" 200 -
+2025-06-28 06:21:18,203 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 06:21:20,480 [INFO]  * Restarting with stat
+2025-06-28 06:21:22,643 [WARNING]  * Debugger is active!
+2025-06-28 06:21:22,647 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 06:21:26,337 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:26] "GET /patient?file=cbc.docx HTTP/1.1" 200 -
+2025-06-28 06:21:33,598 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:33] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:35,001 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:35] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:36,297 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:36] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:37,356 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:37] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:37,663 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:37] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:37,737 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:37] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:38,180 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:38] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:38,181 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:38] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:41,957 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:41] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:43,111 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:43] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:44,411 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:44] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:44,411 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:44] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:21:44,555 [INFO] 127.0.0.1 - - [28/Jun/2025 06:21:44] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:22:23,948 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 06:22:26,129 [INFO]  * Restarting with stat
+2025-06-28 06:22:29,336 [WARNING]  * Debugger is active!
+2025-06-28 06:22:29,340 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 06:22:29,979 [INFO] 127.0.0.1 - - [28/Jun/2025 06:22:29] "GET /patient?file=cbc.docx HTTP/1.1" 200 -
+2025-06-28 06:22:37,511 [INFO] 127.0.0.1 - - [28/Jun/2025 06:22:37] "POST /api/send HTTP/1.1" 200 -
+2025-06-28 06:26:07,404 [INFO] 127.0.0.1 - - [28/Jun/2025 06:26:07] "GET /patient?file=cbc.docx HTTP/1.1" 200 -
+2025-06-28 06:26:25,438 [INFO] 127.0.0.1 - - [28/Jun/2025 06:26:25] "[33mPOST /analyze-chat HTTP/1.1[0m" 404 -
+2025-06-28 06:26:26,405 [INFO] 127.0.0.1 - - [28/Jun/2025 06:26:26] "[33mPOST /analyze-chat HTTP/1.1[0m" 404 -
+2025-06-28 06:26:26,595 [INFO] 127.0.0.1 - - [28/Jun/2025 06:26:26] "[33mPOST /analyze-chat HTTP/1.1[0m" 404 -
+2025-06-28 06:26:26,785 [INFO] 127.0.0.1 - - [28/Jun/2025 06:26:26] "[33mPOST /analyze-chat HTTP/1.1[0m" 404 -
+2025-06-28 06:26:27,010 [INFO] 127.0.0.1 - - [28/Jun/2025 06:26:27] "[33mPOST /analyze-chat HTTP/1.1[0m" 404 -
+2025-06-28 06:28:11,589 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 06:28:13,783 [INFO]  * Restarting with stat
+2025-06-28 06:28:16,025 [WARNING]  * Debugger is active!
+2025-06-28 06:28:16,029 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 06:28:17,672 [INFO] 127.0.0.1 - - [28/Jun/2025 06:28:17] "GET /patient?file=cbc.docx HTTP/1.1" 200 -
+2025-06-28 06:28:37,813 [INFO] 127.0.0.1 - - [28/Jun/2025 06:28:37] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:28:39,301 [INFO] 127.0.0.1 - - [28/Jun/2025 06:28:39] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:28:39,925 [INFO] 127.0.0.1 - - [28/Jun/2025 06:28:39] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:28:40,505 [INFO] 127.0.0.1 - - [28/Jun/2025 06:28:40] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:28:40,814 [INFO] 127.0.0.1 - - [28/Jun/2025 06:28:40] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:28:41,129 [INFO] 127.0.0.1 - - [28/Jun/2025 06:28:41] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:31:30,912 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 06:31:33,109 [INFO]  * Restarting with stat
+2025-06-28 06:31:35,217 [WARNING]  * Debugger is active!
+2025-06-28 06:31:35,221 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 06:31:35,859 [INFO] 127.0.0.1 - - [28/Jun/2025 06:31:35] "GET /patient?file=cbc.docx HTTP/1.1" 200 -
+2025-06-28 06:31:50,181 [INFO] 127.0.0.1 - - [28/Jun/2025 06:31:50] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:31:51,489 [INFO] 127.0.0.1 - - [28/Jun/2025 06:31:51] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:31:52,923 [INFO] 127.0.0.1 - - [28/Jun/2025 06:31:52] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:31:53,964 [INFO] 127.0.0.1 - - [28/Jun/2025 06:31:53] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:32:09,734 [INFO] 127.0.0.1 - - [28/Jun/2025 06:32:09] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:32:11,371 [INFO] 127.0.0.1 - - [28/Jun/2025 06:32:11] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:32:11,868 [INFO] 127.0.0.1 - - [28/Jun/2025 06:32:11] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:32:12,241 [INFO] 127.0.0.1 - - [28/Jun/2025 06:32:12] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:34:06,133 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 06:34:08,338 [INFO]  * Restarting with stat
+2025-06-28 06:34:11,066 [WARNING]  * Debugger is active!
+2025-06-28 06:34:11,070 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 06:34:11,721 [INFO] 127.0.0.1 - - [28/Jun/2025 06:34:11] "GET /patient?file=cbc.docx HTTP/1.1" 200 -
+2025-06-28 06:34:18,727 [INFO] 127.0.0.1 - - [28/Jun/2025 06:34:18] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:34:38,707 [INFO] 127.0.0.1 - - [28/Jun/2025 06:34:38] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:34:40,885 [INFO] 127.0.0.1 - - [28/Jun/2025 06:34:40] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:34:48,093 [INFO] 127.0.0.1 - - [28/Jun/2025 06:34:48] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:34:51,118 [INFO] 127.0.0.1 - - [28/Jun/2025 06:34:51] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:34:55,317 [INFO] 127.0.0.1 - - [28/Jun/2025 06:34:55] "GET /patient?file=cbc.docx HTTP/1.1" 200 -
+2025-06-28 06:35:09,026 [INFO] 127.0.0.1 - - [28/Jun/2025 06:35:09] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:35:29,204 [INFO] 127.0.0.1 - - [28/Jun/2025 06:35:29] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:35:47,342 [INFO] 127.0.0.1 - - [28/Jun/2025 06:35:47] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:35:49,992 [INFO] 127.0.0.1 - - [28/Jun/2025 06:35:49] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:35:50,122 [INFO] 127.0.0.1 - - [28/Jun/2025 06:35:50] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:35:51,026 [INFO] 127.0.0.1 - - [28/Jun/2025 06:35:51] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:35:51,857 [INFO] 127.0.0.1 - - [28/Jun/2025 06:35:51] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:35:51,860 [INFO] 127.0.0.1 - - [28/Jun/2025 06:35:51] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:35:52,018 [INFO] 127.0.0.1 - - [28/Jun/2025 06:35:52] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:35:56,502 [INFO] 127.0.0.1 - - [28/Jun/2025 06:35:56] "GET /patient?file=cbc.docx HTTP/1.1" 200 -
+2025-06-28 06:36:06,766 [INFO] 127.0.0.1 - - [28/Jun/2025 06:36:06] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:36:12,293 [INFO] 127.0.0.1 - - [28/Jun/2025 06:36:12] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:36:26,115 [INFO] 127.0.0.1 - - [28/Jun/2025 06:36:26] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:39:57,490 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 06:39:59,691 [INFO]  * Restarting with stat
+2025-06-28 06:40:03,228 [WARNING]  * Debugger is active!
+2025-06-28 06:40:03,232 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 06:40:04,063 [INFO] 127.0.0.1 - - [28/Jun/2025 06:40:04] "GET /patient?file=cbc.docx HTTP/1.1" 200 -
+2025-06-28 06:40:12,333 [INFO] 127.0.0.1 - - [28/Jun/2025 06:40:12] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:40:21,559 [INFO] 127.0.0.1 - - [28/Jun/2025 06:40:21] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:40:32,410 [INFO] 127.0.0.1 - - [28/Jun/2025 06:40:32] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:40:42,744 [INFO] 127.0.0.1 - - [28/Jun/2025 06:40:42] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:43:16,258 [INFO] 127.0.0.1 - - [28/Jun/2025 06:43:16] "GET /patient?file=cbc.docx HTTP/1.1" 200 -
+2025-06-28 06:43:45,273 [INFO] 127.0.0.1 - - [28/Jun/2025 06:43:45] "[35m[1mPOST /analyze-chat HTTP/1.1[0m" 500 -
+2025-06-28 06:43:52,823 [INFO] 127.0.0.1 - - [28/Jun/2025 06:43:52] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:45:07,086 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 06:45:09,267 [INFO]  * Restarting with stat
+2025-06-28 06:45:11,483 [WARNING]  * Debugger is active!
+2025-06-28 06:45:11,487 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 06:48:15,540 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 06:48:17,715 [INFO]  * Restarting with stat
+2025-06-28 06:51:45,079 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 06:51:45,079 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 06:51:45,080 [INFO]  * Restarting with stat
+2025-06-28 06:51:48,503 [WARNING]  * Debugger is active!
+2025-06-28 06:51:48,507 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 06:51:52,331 [INFO] 127.0.0.1 - - [28/Jun/2025 06:51:52] "GET / HTTP/1.1" 200 -
+2025-06-28 06:52:00,833 [INFO] 127.0.0.1 - - [28/Jun/2025 06:52:00] "GET /login HTTP/1.1" 200 -
+2025-06-28 06:52:00,852 [INFO] 127.0.0.1 - - [28/Jun/2025 06:52:00] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 06:52:10,392 [INFO] 127.0.0.1 - - [28/Jun/2025 06:52:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 06:52:10,421 [INFO] 127.0.0.1 - - [28/Jun/2025 06:52:10] "GET /patient HTTP/1.1" 200 -
+2025-06-28 06:52:49,821 [INFO] 127.0.0.1 - - [28/Jun/2025 06:52:49] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:52:53,302 [INFO] 127.0.0.1 - - [28/Jun/2025 06:52:53] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 06:59:16,297 [INFO] 127.0.0.1 - - [28/Jun/2025 06:59:16] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 07:01:01,383 [INFO] 127.0.0.1 - - [28/Jun/2025 07:01:01] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 07:01:18,265 [INFO] 127.0.0.1 - - [28/Jun/2025 07:01:18] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 07:06:35,549 [INFO] 127.0.0.1 - - [28/Jun/2025 07:06:35] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 07:06:41,245 [INFO] 127.0.0.1 - - [28/Jun/2025 07:06:41] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 07:28:07,599 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 07:28:07,599 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 07:28:07,601 [INFO]  * Restarting with stat
+2025-06-28 07:28:11,274 [WARNING]  * Debugger is active!
+2025-06-28 07:28:11,278 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 07:28:16,323 [INFO] 127.0.0.1 - - [28/Jun/2025 07:28:16] "GET /patient HTTP/1.1" 200 -
+2025-06-28 07:28:38,383 [INFO] 127.0.0.1 - - [28/Jun/2025 07:28:38] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 07:31:40,316 [INFO] 127.0.0.1 - - [28/Jun/2025 07:31:40] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 07:32:24,592 [INFO] 127.0.0.1 - - [28/Jun/2025 07:32:24] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 07:32:59,495 [INFO] 127.0.0.1 - - [28/Jun/2025 07:32:59] "POST /api/sos HTTP/1.1" 200 -
+2025-06-28 07:33:01,545 [INFO] 127.0.0.1 - - [28/Jun/2025 07:33:01] "POST /api/sos HTTP/1.1" 200 -
+2025-06-28 07:33:01,546 [INFO] 127.0.0.1 - - [28/Jun/2025 07:33:01] "[32mPOST /update-patient HTTP/1.1[0m" 302 -
+2025-06-28 07:33:01,553 [INFO] 127.0.0.1 - - [28/Jun/2025 07:33:01] "GET /patient HTTP/1.1" 200 -
+2025-06-28 07:33:59,707 [INFO] 127.0.0.1 - - [28/Jun/2025 07:33:59] "GET /login HTTP/1.1" 200 -
+2025-06-28 07:34:07,731 [INFO] 127.0.0.1 - - [28/Jun/2025 07:34:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 07:34:07,833 [INFO] 127.0.0.1 - - [28/Jun/2025 07:34:07] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 08:01:03,201 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 08:01:03,202 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 08:01:03,204 [INFO]  * Restarting with stat
+2025-06-28 08:01:05,763 [WARNING]  * Debugger is active!
+2025-06-28 08:01:05,769 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 08:01:19,749 [INFO] 127.0.0.1 - - [28/Jun/2025 08:01:19] "GET / HTTP/1.1" 200 -
+2025-06-28 08:01:19,953 [INFO] 127.0.0.1 - - [28/Jun/2025 08:01:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-28 08:01:24,820 [INFO] 127.0.0.1 - - [28/Jun/2025 08:01:24] "GET /login HTTP/1.1" 200 -
+2025-06-28 08:01:24,836 [INFO] 127.0.0.1 - - [28/Jun/2025 08:01:24] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 08:01:41,834 [INFO] 127.0.0.1 - - [28/Jun/2025 08:01:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:01:41,860 [INFO] 127.0.0.1 - - [28/Jun/2025 08:01:41] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 08:10:40,691 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 08:10:42,906 [INFO]  * Restarting with stat
+2025-06-28 08:10:45,205 [WARNING]  * Debugger is active!
+2025-06-28 08:10:45,209 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 08:10:56,017 [INFO] 127.0.0.1 - - [28/Jun/2025 08:10:56] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 08:11:04,486 [INFO] 127.0.0.1 - - [28/Jun/2025 08:11:04] "GET /api/patient/3/history HTTP/1.1" 200 -
+2025-06-28 08:11:27,379 [INFO] 127.0.0.1 - - [28/Jun/2025 08:11:27] "GET /api/patient/2/history HTTP/1.1" 200 -
+2025-06-28 08:12:11,206 [INFO] 127.0.0.1 - - [28/Jun/2025 08:12:11] "GET /login HTTP/1.1" 200 -
+2025-06-28 08:12:20,996 [INFO] 127.0.0.1 - - [28/Jun/2025 08:12:20] "GET /login HTTP/1.1" 200 -
+2025-06-28 08:12:21,009 [INFO] 127.0.0.1 - - [28/Jun/2025 08:12:21] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 08:12:31,914 [INFO] 127.0.0.1 - - [28/Jun/2025 08:12:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:12:31,936 [INFO] 127.0.0.1 - - [28/Jun/2025 08:12:31] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:13:46,140 [INFO] 127.0.0.1 - - [28/Jun/2025 08:13:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:13:46,143 [INFO] 127.0.0.1 - - [28/Jun/2025 08:13:46] "GET /login HTTP/1.1" 200 -
+2025-06-28 08:13:46,157 [INFO] 127.0.0.1 - - [28/Jun/2025 08:13:46] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 08:13:56,125 [INFO] 127.0.0.1 - - [28/Jun/2025 08:13:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:13:56,132 [INFO] 127.0.0.1 - - [28/Jun/2025 08:13:56] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:14:22,781 [INFO] 127.0.0.1 - - [28/Jun/2025 08:14:22] "POST /api/sos HTTP/1.1" 200 -
+2025-06-28 08:14:22,782 [INFO] 127.0.0.1 - - [28/Jun/2025 08:14:22] "[32mPOST /update-patient HTTP/1.1[0m" 302 -
+2025-06-28 08:14:22,790 [INFO] 127.0.0.1 - - [28/Jun/2025 08:14:22] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:15:20,227 [INFO] 127.0.0.1 - - [28/Jun/2025 08:15:20] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:15:33,919 [INFO] 127.0.0.1 - - [28/Jun/2025 08:15:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:15:33,925 [INFO] 127.0.0.1 - - [28/Jun/2025 08:15:33] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:15:39,469 [INFO] 127.0.0.1 - - [28/Jun/2025 08:15:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:15:39,476 [INFO] 127.0.0.1 - - [28/Jun/2025 08:15:39] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 08:15:43,924 [INFO] 127.0.0.1 - - [28/Jun/2025 08:15:43] "GET /api/patient/4/history HTTP/1.1" 200 -
+2025-06-28 08:16:03,262 [INFO] 127.0.0.1 - - [28/Jun/2025 08:16:03] "GET /api/patient/2/history HTTP/1.1" 200 -
+2025-06-28 08:17:44,524 [INFO] 127.0.0.1 - - [28/Jun/2025 08:17:44] "GET /login HTTP/1.1" 200 -
+2025-06-28 08:17:53,125 [INFO] 127.0.0.1 - - [28/Jun/2025 08:17:53] "GET /login HTTP/1.1" 200 -
+2025-06-28 08:17:53,154 [INFO] 127.0.0.1 - - [28/Jun/2025 08:17:53] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 08:18:11,423 [INFO] 127.0.0.1 - - [28/Jun/2025 08:18:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:18:11,430 [INFO] 127.0.0.1 - - [28/Jun/2025 08:18:11] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:18:22,364 [INFO] 127.0.0.1 - - [28/Jun/2025 08:18:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:18:22,370 [INFO] 127.0.0.1 - - [28/Jun/2025 08:18:22] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:19:22,052 [INFO] 127.0.0.1 - - [28/Jun/2025 08:19:22] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:19:32,699 [INFO] 127.0.0.1 - - [28/Jun/2025 08:19:32] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:19:46,127 [INFO] 127.0.0.1 - - [28/Jun/2025 08:19:46] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:20:14,568 [INFO] 127.0.0.1 - - [28/Jun/2025 08:20:14] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:20:55,036 [INFO] 127.0.0.1 - - [28/Jun/2025 08:20:55] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:21:13,293 [INFO] 127.0.0.1 - - [28/Jun/2025 08:21:13] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:21:55,022 [INFO] 127.0.0.1 - - [28/Jun/2025 08:21:55] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:22:29,268 [INFO] 127.0.0.1 - - [28/Jun/2025 08:22:29] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:22:49,347 [INFO] 127.0.0.1 - - [28/Jun/2025 08:22:49] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:22:58,864 [INFO] 127.0.0.1 - - [28/Jun/2025 08:22:58] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:23:17,888 [INFO] 127.0.0.1 - - [28/Jun/2025 08:23:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:23:17,896 [INFO] 127.0.0.1 - - [28/Jun/2025 08:23:17] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 08:23:35,387 [INFO] 127.0.0.1 - - [28/Jun/2025 08:23:35] "GET /api/patient/3/history HTTP/1.1" 200 -
+2025-06-28 08:23:40,104 [INFO] 127.0.0.1 - - [28/Jun/2025 08:23:40] "[36mGET /static/uploads/Doc2.docx HTTP/1.1[0m" 304 -
+2025-06-28 08:24:03,476 [INFO] 127.0.0.1 - - [28/Jun/2025 08:24:03] "[32mPOST /update_settings HTTP/1.1[0m" 302 -
+2025-06-28 08:24:03,484 [INFO] 127.0.0.1 - - [28/Jun/2025 08:24:03] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 08:25:22,630 [INFO] 127.0.0.1 - - [28/Jun/2025 08:25:22] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:25:44,697 [INFO] 127.0.0.1 - - [28/Jun/2025 08:25:44] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:26:00,026 [INFO] 127.0.0.1 - - [28/Jun/2025 08:26:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:26:00,032 [INFO] 127.0.0.1 - - [28/Jun/2025 08:26:00] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:26:12,379 [INFO] 127.0.0.1 - - [28/Jun/2025 08:26:12] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:26:23,065 [INFO] 127.0.0.1 - - [28/Jun/2025 08:26:23] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:26:35,728 [INFO] 127.0.0.1 - - [28/Jun/2025 08:26:35] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 08:26:56,802 [INFO] 127.0.0.1 - - [28/Jun/2025 08:26:56] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:27:04,926 [INFO] 127.0.0.1 - - [28/Jun/2025 08:27:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:27:04,934 [INFO] 127.0.0.1 - - [28/Jun/2025 08:27:04] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 08:35:45,004 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 08:35:47,199 [INFO]  * Restarting with stat
+2025-06-28 08:35:56,905 [WARNING]  * Debugger is active!
+2025-06-28 08:35:56,909 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 08:35:57,545 [INFO] 127.0.0.1 - - [28/Jun/2025 08:35:57] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:37:59,945 [INFO] 127.0.0.1 - - [28/Jun/2025 08:37:59] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:38:12,286 [INFO] [DAILY LOG] Patient 1 submitted: Meds=None, Water=, Notes=None
+2025-06-28 08:38:12,287 [INFO] 127.0.0.1 - - [28/Jun/2025 08:38:12] "[32mPOST /update-health-log HTTP/1.1[0m" 302 -
+2025-06-28 08:38:12,291 [INFO] 127.0.0.1 - - [28/Jun/2025 08:38:12] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:40:58,448 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 08:41:00,676 [INFO]  * Restarting with stat
+2025-06-28 08:41:02,841 [WARNING]  * Debugger is active!
+2025-06-28 08:41:02,844 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 08:41:58,457 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 08:42:00,651 [INFO]  * Restarting with stat
+2025-06-28 08:42:03,973 [WARNING]  * Debugger is active!
+2025-06-28 08:42:03,977 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 08:44:49,747 [INFO] 127.0.0.1 - - [28/Jun/2025 08:44:49] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:45:07,417 [INFO] 127.0.0.1 - - [28/Jun/2025 08:45:07] "[32mPOST /update-health-log HTTP/1.1[0m" 302 -
+2025-06-28 08:45:07,422 [INFO] 127.0.0.1 - - [28/Jun/2025 08:45:07] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:45:19,285 [INFO] 127.0.0.1 - - [28/Jun/2025 08:45:19] "[32mPOST /update-health-log HTTP/1.1[0m" 302 -
+2025-06-28 08:45:19,291 [INFO] 127.0.0.1 - - [28/Jun/2025 08:45:19] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:45:21,971 [INFO] 127.0.0.1 - - [28/Jun/2025 08:45:21] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:49:46,939 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 08:49:49,153 [INFO]  * Restarting with stat
+2025-06-28 08:49:51,351 [WARNING]  * Debugger is active!
+2025-06-28 08:49:51,355 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 08:49:54,486 [INFO] 127.0.0.1 - - [28/Jun/2025 08:49:54] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:50:00,834 [INFO] 127.0.0.1 - - [28/Jun/2025 08:50:00] "[32mPOST /update-health-log HTTP/1.1[0m" 302 -
+2025-06-28 08:50:00,840 [INFO] 127.0.0.1 - - [28/Jun/2025 08:50:00] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:50:09,670 [INFO] 127.0.0.1 - - [28/Jun/2025 08:50:09] "[32mPOST /update-health-log HTTP/1.1[0m" 302 -
+2025-06-28 08:50:09,676 [INFO] 127.0.0.1 - - [28/Jun/2025 08:50:09] "GET /patient HTTP/1.1" 200 -
+2025-06-28 08:52:01,836 [INFO] 127.0.0.1 - - [28/Jun/2025 08:52:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-28 08:52:01,889 [INFO] 127.0.0.1 - - [28/Jun/2025 08:52:01] "GET /login HTTP/1.1" 200 -
+2025-06-28 08:52:01,905 [INFO] 127.0.0.1 - - [28/Jun/2025 08:52:01] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 08:52:21,667 [INFO] 127.0.0.1 - - [28/Jun/2025 08:52:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:52:21,671 [INFO] 127.0.0.1 - - [28/Jun/2025 08:52:21] "GET /login HTTP/1.1" 200 -
+2025-06-28 08:52:21,684 [INFO] 127.0.0.1 - - [28/Jun/2025 08:52:21] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 08:52:33,868 [INFO] 127.0.0.1 - - [28/Jun/2025 08:52:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 08:52:33,878 [INFO] 127.0.0.1 - - [28/Jun/2025 08:52:33] "GET /patient HTTP/1.1" 200 -
+2025-06-28 09:00:52,449 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 09:00:54,688 [INFO]  * Restarting with stat
+2025-06-28 09:00:56,735 [WARNING]  * Debugger is active!
+2025-06-28 09:00:56,739 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 09:01:22,323 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 09:01:24,529 [INFO]  * Restarting with stat
+2025-06-28 09:01:26,775 [WARNING]  * Debugger is active!
+2025-06-28 09:01:26,778 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 09:01:36,551 [INFO] 127.0.0.1 - - [28/Jun/2025 09:01:36] "GET /login HTTP/1.1" 200 -
+2025-06-28 09:01:38,348 [INFO] 127.0.0.1 - - [28/Jun/2025 09:01:38] "GET /login HTTP/1.1" 200 -
+2025-06-28 09:01:49,619 [INFO] 127.0.0.1 - - [28/Jun/2025 09:01:49] "GET /login HTTP/1.1" 200 -
+2025-06-28 09:01:49,637 [INFO] 127.0.0.1 - - [28/Jun/2025 09:01:49] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 09:01:54,431 [INFO] 127.0.0.1 - - [28/Jun/2025 09:01:54] "GET /login HTTP/1.1" 200 -
+2025-06-28 09:01:54,448 [INFO] 127.0.0.1 - - [28/Jun/2025 09:01:54] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 09:02:12,335 [INFO] 127.0.0.1 - - [28/Jun/2025 09:02:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 09:02:12,367 [INFO] 127.0.0.1 - - [28/Jun/2025 09:02:12] "GET /patient HTTP/1.1" 200 -
+2025-06-28 09:02:39,591 [INFO] 127.0.0.1 - - [28/Jun/2025 09:02:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 09:02:39,598 [INFO] 127.0.0.1 - - [28/Jun/2025 09:02:39] "GET /patient HTTP/1.1" 200 -
+2025-06-28 09:07:35,111 [INFO] 127.0.0.1 - - [28/Jun/2025 09:07:35] "GET / HTTP/1.1" 200 -
+2025-06-28 09:53:31,846 [INFO] 127.0.0.1 - - [28/Jun/2025 09:53:31] "GET /login HTTP/1.1" 200 -
+2025-06-28 09:53:31,863 [INFO] 127.0.0.1 - - [28/Jun/2025 09:53:31] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 09:55:05,829 [INFO] 127.0.0.1 - - [28/Jun/2025 09:55:05] "[32mPOST /book-appointment HTTP/1.1[0m" 302 -
+2025-06-28 09:55:05,836 [INFO] 127.0.0.1 - - [28/Jun/2025 09:55:05] "GET /patient HTTP/1.1" 200 -
+2025-06-28 09:55:16,282 [INFO] 127.0.0.1 - - [28/Jun/2025 09:55:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 09:55:16,355 [INFO] 127.0.0.1 - - [28/Jun/2025 09:55:16] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 09:55:21,269 [INFO] 127.0.0.1 - - [28/Jun/2025 09:55:21] "GET /api/patient/2/history HTTP/1.1" 200 -
+2025-06-28 09:57:47,253 [INFO] 127.0.0.1 - - [28/Jun/2025 09:57:47] "GET /api/patient/4/history HTTP/1.1" 200 -
+2025-06-28 09:58:52,966 [INFO] 127.0.0.1 - - [28/Jun/2025 09:58:52] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 09:59:20,771 [INFO] 127.0.0.1 - - [28/Jun/2025 09:59:20] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 09:59:55,548 [INFO] 127.0.0.1 - - [28/Jun/2025 09:59:55] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 10:00:20,836 [INFO] 127.0.0.1 - - [28/Jun/2025 10:00:20] "POST /analyze-chat HTTP/1.1" 200 -
+2025-06-28 10:22:55,387 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 10:22:57,630 [INFO]  * Restarting with stat
+2025-06-28 10:22:59,914 [WARNING]  * Debugger is active!
+2025-06-28 10:22:59,918 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 10:23:06,918 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 10:23:09,114 [INFO]  * Restarting with stat
+2025-06-28 10:23:12,449 [WARNING]  * Debugger is active!
+2025-06-28 10:23:12,453 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 10:26:29,468 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 10:26:31,664 [INFO]  * Restarting with stat
+2025-06-28 10:26:34,277 [WARNING]  * Debugger is active!
+2025-06-28 10:26:34,281 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 10:27:15,727 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 10:27:15,727 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-28 10:27:15,729 [INFO]  * Restarting with stat
+2025-06-28 10:27:19,239 [WARNING]  * Debugger is active!
+2025-06-28 10:27:19,244 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 10:27:19,914 [INFO] 127.0.0.1 - - [28/Jun/2025 10:27:19] "GET / HTTP/1.1" 200 -
+2025-06-28 10:27:19,966 [INFO] 127.0.0.1 - - [28/Jun/2025 10:27:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-28 10:27:22,014 [INFO] 127.0.0.1 - - [28/Jun/2025 10:27:22] "GET /login HTTP/1.1" 200 -
+2025-06-28 10:27:22,031 [INFO] 127.0.0.1 - - [28/Jun/2025 10:27:22] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 10:27:42,498 [INFO] 127.0.0.1 - - [28/Jun/2025 10:27:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 10:27:42,501 [INFO] 127.0.0.1 - - [28/Jun/2025 10:27:42] "GET /login HTTP/1.1" 200 -
+2025-06-28 10:27:42,514 [INFO] 127.0.0.1 - - [28/Jun/2025 10:27:42] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 10:28:16,844 [INFO] 127.0.0.1 - - [28/Jun/2025 10:28:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 10:28:16,848 [INFO] 127.0.0.1 - - [28/Jun/2025 10:28:16] "GET /login HTTP/1.1" 200 -
+2025-06-28 10:28:16,862 [INFO] 127.0.0.1 - - [28/Jun/2025 10:28:16] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 10:28:27,155 [INFO] 127.0.0.1 - - [28/Jun/2025 10:28:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 10:28:27,233 [INFO] 127.0.0.1 - - [28/Jun/2025 10:28:27] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:29:19,366 [INFO] 127.0.0.1 - - [28/Jun/2025 10:29:19] "[33mPOST /update-patient HTTP/1.1[0m" 404 -
+2025-06-28 10:31:04,718 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 10:31:06,936 [INFO]  * Restarting with stat
+2025-06-28 10:31:09,030 [WARNING]  * Debugger is active!
+2025-06-28 10:31:09,034 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 10:31:19,165 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 10:31:21,376 [INFO]  * Restarting with stat
+2025-06-28 10:31:23,523 [WARNING]  * Debugger is active!
+2025-06-28 10:31:23,527 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 10:31:24,054 [INFO] 127.0.0.1 - - [28/Jun/2025 10:31:24] "[33mPOST /update-patient HTTP/1.1[0m" 404 -
+2025-06-28 10:31:37,833 [INFO] 127.0.0.1 - - [28/Jun/2025 10:31:37] "[32mPOST /update-health HTTP/1.1[0m" 302 -
+2025-06-28 10:31:37,862 [INFO] 127.0.0.1 - - [28/Jun/2025 10:31:37] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:31:51,875 [INFO] 127.0.0.1 - - [28/Jun/2025 10:31:51] "[32mPOST /update-health-log HTTP/1.1[0m" 302 -
+2025-06-28 10:31:51,882 [INFO] 127.0.0.1 - - [28/Jun/2025 10:31:51] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:34:52,782 [INFO]  * Detected change in 'C:\\Users\\Asus\\Desktop\\Helth Care\\app.py', reloading
+2025-06-28 10:34:54,971 [INFO]  * Restarting with stat
+2025-06-28 10:34:57,175 [WARNING]  * Debugger is active!
+2025-06-28 10:34:57,179 [INFO]  * Debugger PIN: 675-936-434
+2025-06-28 10:35:17,401 [INFO] 127.0.0.1 - - [28/Jun/2025 10:35:17] "[33mPOST /update-patient HTTP/1.1[0m" 404 -
+2025-06-28 10:37:30,415 [INFO] 127.0.0.1 - - [28/Jun/2025 10:37:30] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:37:40,203 [INFO] 127.0.0.1 - - [28/Jun/2025 10:37:40] "[32mPOST /update-profile HTTP/1.1[0m" 302 -
+2025-06-28 10:37:40,211 [INFO] 127.0.0.1 - - [28/Jun/2025 10:37:40] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:38:38,537 [INFO] 127.0.0.1 - - [28/Jun/2025 10:38:38] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:38:49,401 [INFO] 127.0.0.1 - - [28/Jun/2025 10:38:49] "GET /login HTTP/1.1" 200 -
+2025-06-28 10:38:55,867 [INFO] 127.0.0.1 - - [28/Jun/2025 10:38:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 10:38:55,886 [INFO] 127.0.0.1 - - [28/Jun/2025 10:38:55] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 10:38:59,775 [INFO] 127.0.0.1 - - [28/Jun/2025 10:38:59] "GET /api/patient/1/history HTTP/1.1" 200 -
+2025-06-28 10:39:45,642 [INFO] 127.0.0.1 - - [28/Jun/2025 10:39:45] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:39:54,826 [INFO] 127.0.0.1 - - [28/Jun/2025 10:39:54] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:40:08,704 [INFO] 127.0.0.1 - - [28/Jun/2025 10:40:08] "POST /login HTTP/1.1" 200 -
+2025-06-28 10:40:08,714 [INFO] 127.0.0.1 - - [28/Jun/2025 10:40:08] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2025-06-28 10:40:21,545 [INFO] 127.0.0.1 - - [28/Jun/2025 10:40:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 10:40:21,552 [INFO] 127.0.0.1 - - [28/Jun/2025 10:40:21] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:40:30,018 [INFO] 127.0.0.1 - - [28/Jun/2025 10:40:30] "[32mPOST /update-profile HTTP/1.1[0m" 302 -
+2025-06-28 10:40:30,024 [INFO] 127.0.0.1 - - [28/Jun/2025 10:40:30] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:40:39,645 [INFO] 127.0.0.1 - - [28/Jun/2025 10:40:39] "[32mPOST /update-health HTTP/1.1[0m" 302 -
+2025-06-28 10:40:39,653 [INFO] 127.0.0.1 - - [28/Jun/2025 10:40:39] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:40:53,157 [INFO] 127.0.0.1 - - [28/Jun/2025 10:40:53] "GET /login HTTP/1.1" 200 -
+2025-06-28 10:40:59,410 [INFO] 127.0.0.1 - - [28/Jun/2025 10:40:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 10:40:59,416 [INFO] 127.0.0.1 - - [28/Jun/2025 10:40:59] "GET /doctor HTTP/1.1" 200 -
+2025-06-28 10:41:03,985 [INFO] 127.0.0.1 - - [28/Jun/2025 10:41:03] "GET /api/patient/1/history HTTP/1.1" 200 -
+2025-06-28 10:41:50,807 [INFO] 127.0.0.1 - - [28/Jun/2025 10:41:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 10:41:50,814 [INFO] 127.0.0.1 - - [28/Jun/2025 10:41:50] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:43:04,660 [INFO] 127.0.0.1 - - [28/Jun/2025 10:43:04] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:43:54,288 [INFO] 127.0.0.1 - - [28/Jun/2025 10:43:54] "GET /patient HTTP/1.1" 200 -
+2025-06-28 10:48:16,211 [INFO] 127.0.0.1 - - [28/Jun/2025 10:48:16] "GET /login HTTP/1.1" 200 -
+2025-06-28 10:48:17,792 [INFO] 127.0.0.1 - - [28/Jun/2025 10:48:17] "GET /login HTTP/1.1" 200 -
+2025-06-28 10:48:23,924 [INFO] 127.0.0.1 - - [28/Jun/2025 10:48:23] "GET / HTTP/1.1" 200 -

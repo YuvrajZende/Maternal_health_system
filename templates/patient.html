@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pregnancy Patient Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts & Bootstrap Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Quicksand', 'Segoe UI', Arial, sans-serif;
+      background: #f0f8ff;
+      color: #000000;
+    }
+    .dashboard-header {
+      background: #fff;
+      color: #000000;
+      box-shadow: 0 2px 16px #e91e6340;
+      border-radius: 0 0 24px 24px;
+      padding: 1.2rem 1.2rem 1rem 1.2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .dashboard-header h2 {
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+    .main-content {
+      padding: 2.5rem 1rem 1rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      border-radius: 22px;
+      box-shadow: 0 8px 32px #e91e6320;
+      border: none;
+      margin-bottom: 1.7rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      background: #fff;
+    }
+    .card:hover {
+      transform: translateY(-3px) scale(1.01);
+      box-shadow: 0 16px 32px #e91e6320;
+    }
+    .card-header {
+      background: linear-gradient(90deg, #ffe0f7 0%, #e3f6fc 100%);
+      border-radius: 22px 22px 0 0 !important;
+      font-weight: 700;
+      color: #000000;
+      font-size: 1.2rem;
+      border-bottom: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border: 5px solid #e3f6fc;
+      box-shadow: 0 4px 16px #e91e6320;
+      margin-right: 1.5rem;
+    }
+    .welcome-hero {
+      background: linear-gradient(120deg, #f9f5fa 60%, #e0c3fc 100%);
+      border-radius: 22px;
+      padding: 2rem 1rem 1rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    .welcome-hero .hero-illustration {
+      width: 120px;
+      height: 120px;
+      background: url('https://cdn.pixabay.com/photo/2017/01/31/19/14/pregnant-2021447_1280.png') no-repeat center/contain;
+      border-radius: 50%;
+      box-shadow: 0 4px 16px #e91e6320;
+      margin-right: 1.5rem;
+      flex-shrink: 0;
+    }
+    .pregnancy-stage {
+      font-size: 1rem;
+      padding: 4px 16px;
+      border-radius: 16px;
+      font-weight: 700;
+      background: linear-gradient(90deg, #e0c3fc 0%, #ffe0f7 100%);
+      color: #000000;
+      margin-right: 0.5rem;
+    }
+    .metric-value {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #000000;
+      margin-bottom: 0.2rem;
+      letter-spacing: 1px;
+    }
+    .health-metric i {
+      font-size: 2.5rem;
+      margin-bottom: 0.7rem;
+      color: #000000;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1);}
+      50% { transform: scale(1.08);}
+      100% { transform: scale(1);}
+    }
+    .btn-primary, .btn-info, .btn-success, .btn-outline-primary {
+      border-radius: 16px;
+      font-weight: 600;
+      padding: 0.7rem 1.5rem;
+      font-size: 1.1rem;
+      box-shadow: 0 2px 8px #e91e6320;
+      transition: background-color 0.2s;
+    }
+    .btn-primary {
+      background: linear-gradient(90deg, #e91e63 0%, #9c27b0 100%);
+      border: none;
+    }
+    .btn-primary:hover {
+      background: linear-gradient(90deg, #ffb6b9 0%, #9c27b0 100%);
+    }
+    .ai-message, .user-message {
+      border-radius: 16px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 0.7rem;
+      font-size: 1rem;
+    }
+    .ai-message {
+      background: #e3f6fc;
+      border-left: 5px solid #7c3aed;
+    }
+    .user-message {
+      background: #ffe0f7;
+      border-right: 5px solid #e91e63;
+      text-align: right;
+    }
+    .chat-container {
+      background: #f9f5fa;
+      border-radius: 16px;
+      padding: 1rem;
+      max-height: 220px;
+      overflow-y: auto;
+      margin-bottom: 1rem;
+    }
+    .nav-pills .nav-link.active {
+      background: linear-gradient(90deg, #e0c3fc 0%, #ffe0f7 100%);
+      color: #e91e63 !important;
+      font-weight: bold;
+    }
+    .nav-pills .nav-link {
+      color: #000000;
+      font-weight: 600;
+      border-radius: 16px;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      transition: background-color 0.2s;
+    }
+    .nav-pills .nav-link:hover {
+      background: #e3f6fc;
+    }
+    @media (max-width: 991px) {
+      .main-content {
+        margin-left: 0;
+        padding: 1rem 0.3rem;
+      }
+      .sidebar {
+        display: none !important;
+      }
+      .welcome-hero { flex-direction: column; gap: 1rem; }
+    }
+    @media (max-width: 767px) {
+      .dashboard-header h2 { font-size: 1.3rem; }
+      .main-content { padding: 0.5rem 0.1rem; }
+      .welcome-hero { padding: 1.2rem 0.5rem; }
+      .profile-img, .welcome-hero .hero-illustration { width: 70px; height: 70px; }
+      .card-header { font-size: 1rem; }
+      .metric-value { font-size: 1.3rem; }
+      .btn { font-size: 1rem; padding: 0.5rem 1rem;}
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="dashboard-header">
+    <div class="d-flex align-items-center">
+      <i class="bi bi-heart-pulse fs-2 me-2"></i>
+      <h2>MatraAi</h2>
+    </div>
+
+  </header>
+
+  <!-- Main Navigation (NO Fetal Growth or Resources links) -->
+  <div class="container-fluid main-content">
+    <ul class="nav nav-pills mb-4 flex-wrap" id="mainTabs">
+      <li class="nav-item"><a class="nav-link active" data-section="home" href="#"><i class="bi bi-house"></i> Home</a></li>
+      <li class="nav-item"><a class="nav-link" data-section="profile" href="#"><i class="bi bi-person-badge"></i> Profile</a></li>
+      <li class="nav-item"><a class="nav-link" data-section="appointments" href="#"><i class="bi bi-calendar-event"></i> Appointments</a></li>
+      <!-- <li class="nav-item"><a class="nav-link" data-section="health" href="#"><i class="bi bi-heart-pulse"></i> Health</a></li> -->
+      <li class="nav-item"><a class="nav-link" data-section="chat" href="#"><i class="bi bi-chat-dots"></i> Chat</a></li>
+      <li class="nav-item"><a class="nav-link" data-section="settings" href="#"><i class="bi bi-gear"></i> Settings</a></li>
+    </ul>
+
+    <!-- Home Section -->
+    <section id="home" class="section-tab">
+      <div class="welcome-hero mb-4">
+        
+        <div>
+          <img src="{{ patient.profile_pic_url or 'https://via.placeholder.com/100' }}" class="profile-img rounded-circle me-3" alt="{{ patient.fullname }}">
+        <h2 class="mb-1" style="color:#e91e63;">
+  Hello, {{ patient.fullname.split(' ')[0] if patient.fullname else 'User' }}! 
+</h2>
+
+<span class="pregnancy-stage">Week {{ patient.gestational_age or '--' }} · Trimester {{ patient.trimester or 'N/A' }}</span>
+<br>
+<span class="ms-2 text-muted">Due: <b>{{ patient.due_date or 'Not Set' }}</b></span>
+<br>
+          <div>
+            <button class="btn btn-primary me-2" onclick="showTab('appointments')"><i class="bi bi-calendar-event"></i> Next Appointment</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row g-3">
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <div class="card-header"><i class="bi bi-clipboard-check"></i> Daily Health Tracker</div>
+<div class="card-body">
+  <form method="POST" action="/update-health">
+    <div class="mb-3">
+      <label class="form-label">Weight (kg)</label>
+      <input type="number" class="form-control" name="weight" value="{{ patient.weight or '' }}">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Blood Pressure (e.g., 120/80)</label>
+      <input type="text" class="form-control" name="blood_pressure" value="{{ patient.blood_pressure or '' }}">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Blood Sugar (mg/dL)</label>
+      <input type="number" class="form-control" name="blood_sugar" value="{{ patient.blood_sugar or '' }}">
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">
+      <i class="bi bi-activity"></i> Update Health</button>
+  </form>
+
+  <hr>
+
+  <form method="POST" action="/update-health-log">
+    <div class="form-check mb-3">
+      <input class="form-check-input" type="checkbox" name="medications_done" id="medications_done"
+        {% if daily_log and daily_log.medications_done %}checked{% endif %}>
+      <label class="form-check-label" for="medications_done">
+        💊 Medication taken today
+      </label>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">💧 Water Intake</label>
+      <select class="form-select" name="water_intake">
+        <option value="">Select number of glasses</option>
+        {% for i in range(1, 13) %}
+          <option value="{{ i }}" {% if daily_log and daily_log.water_intake == i %}selected{% endif %}>
+            {{ i }} glass{{ 'es' if i > 1 else '' }}
+          </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="form-check mb-3">
+      <input class="form-check-input" type="checkbox" name="exercise_done" id="exercise_done"
+        {% if daily_log and daily_log.exercise_done %}checked{% endif %}>
+      <label class="form-check-label" for="exercise_done">
+        🧘 Light exercise done (e.g., walk or yoga)
+      </label>
+    </div>
+
+    <div class="form-check mb-3">
+      <input class="form-check-input" type="checkbox" name="sleep_good" id="sleep_good"
+        {% if daily_log and daily_log.sleep_good %}checked{% endif %}>
+      <label class="form-check-label" for="sleep_good">
+        😴 Slept well last night
+      </label>
+    </div>
+
+    <button type="submit" class="btn btn-success w-100">
+      <i class="bi bi-check2-circle"></i> Save Daily Log
+    </button>
+  </form>
+</div>
+
+          </div>
+          <div class="card border-danger">
+            <div class="card-header"><i class="bi bi-exclamation-triangle"></i> Emergency</div>
+            <div class="card-body">
+              <button class="btn btn-danger w-100 mb-2" onclick="showToast('Emergency alert sent!')"><i class="bi bi-telephone"></i> Call My Doctor</button>
+              <button class="btn btn-outline-danger w-100" onclick="showToast('Location shared with care team!')"><i class="bi bi-geo-alt"></i> Share Location</button>
+              <div class="mt-2 small text-muted">If you have severe pain, bleeding, or decreased fetal movement, contact your doctor immediately.</div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <div class="d-flex align-items-center">
+  
+<!-- Profile Section with Emergency Icon at Top Right -->
+    <section id="profile" class="section-tab d-none">
+      <div class="position-relative">
+
+        <div class="card mt-2">
+          <div class="card-header"><i class="bi bi-person-badge"></i> My Profile</div>
+          <div class="card-body">
+            <form method="POST" action="/update-profile" class="row g-3">
+              <div class="col-md-4 text-center">
+                <img src="{{ patient.profile_pic_url or 'https://via.placeholder.com/100' }}" class="profile-img rounded-circle mb-3" alt="{{ patient.fullname }}">
+                <input type="text" class="form-control" name="profile_pic_url" value="{{ patient.profile_pic_url }}">
+              </div>
+
+              <div class="col-md-8">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" name="fullname" value="{{ patient.fullname }}">
+
+                <label class="form-label">Age</label>
+                <input type="number" class="form-control" name="age" value="{{ patient.age }}">
+
+                <label class="form-label">Gestational Age (weeks)</label>
+                <input type="number" class="form-control" name="gestational_age" value="{{ patient.gestational_age }}">
+
+                <label class="form-label">Trimester</label>
+                <select class="form-select" name="trimester">
+                  <option value="1" {% if patient.trimester == '1' %}selected{% endif %}>First (1–12 weeks)</option>
+                  <option value="2" {% if patient.trimester == '2' %}selected{% endif %}>Second (13–27 weeks)</option>
+                  <option value="3" {% if patient.trimester == '3' %}selected{% endif %}>Third (28–42 weeks)</option>
+                </select>
+
+                <label class="form-label">Expected Delivery Date</label>
+                <input type="date" class="form-control" name="due_date" value="{{ patient.due_date }}">
+
+                <label class="form-label">Risk Status</label>
+                <select class="form-select" name="risk_status">
+                  <option {% if patient.risk_status == 'Low' %}selected{% endif %}>Low</option>
+                  <option {% if patient.risk_status == 'Moderate' %}selected{% endif %}>Moderate</option>
+                  <option {% if patient.risk_status == 'High' %}selected{% endif %}>High</option>
+                </select>
+
+                <button class="btn btn-success mt-2" type="submit">Save Changes</button>
+              </div>
+            </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Emergency alert button click handler
+  document.getElementById('emergencyBtn').addEventListener('click', function() {
+    alert('Emergency alert sent for this patient!');
+  });
+</script>
+
+    <!-- Appointments Section -->
+<section id="appointments" class="section-tab d-none">
+  <div class="card mt-2">
+    <div class="card-header">
+      <i class="bi bi-calendar2-week"></i> My Appointments
+    </div>
+    <div class="card-body">
+
+      <form action="/book-appointment" method="POST" class="mb-4 border p-3 rounded bg-light">
+        <input type="hidden" name="patient_id" value="{{ patient.id }}">
+        <input type="hidden" name="doctor_id" value="1"> 
+
+        <div class="mb-2">
+          <label for="date" class="form-label">Appointment Date</label>
+          <input type="date" name="date" id="date" class="form-control" required>
+        </div>
+        <div class="mb-2">
+          <label for="time" class="form-label">Appointment Time</label>
+          <input type="time" name="time" id="time" class="form-control" required>
+        </div>
+        <div class="mb-2">
+          <label for="reason" class="form-label">Reason for Visit</label>
+          <input type="text" name="reason" id="reason" class="form-control" placeholder="e.g., Routine Checkup" required>
+        </div>
+        <button type="submit" class="btn btn-success">
+          <i class="bi bi-calendar-plus"></i> Book Appointment
+        </button>
+      </form>
+
+      <!--Timeline and Appointment Cards -->
+      {% if patient.appointments_made %}
+      <div class="mb-4">
+        <div class="d-flex align-items-center mb-2">
+          <i class="bi bi-alarm-fill text-primary me-2 fs-4"></i>
+          <span class="fw-bold">Next Appointment:</span>
+          <span class="ms-2 text-success">
+            {{ patient.appointments_made[0].date }} · {{ patient.appointments_made[0].time }}
+          </span>
+        </div>
+        <div class="progress" style="height: 10px; border-radius: 6px;">
+          <div class="progress-bar bg-gradient" role="progressbar"
+               style="width: 100%; background: linear-gradient(90deg,#e91e63,#9c27b0);"
+               aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        {% for appt in patient.appointments_made %}
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-person-circle fs-3 text-info me-2"></i>
+                <div>
+                  <div class="fw-bold">Dr. {{ appt.doctor.fullname }}</div>
+                  <div class="small text-muted">{{ appt.reason }}</div>
+                </div>
+              </div>
+              <div class="mb-2">
+                <i class="bi bi-calendar-event me-1"></i>
+                <span class="fw-semibold">{{ appt.date }}</span>
+              </div>
+              <div class="mb-2">
+                <i class="bi bi-clock me-1"></i>
+                <span>{{ appt.time }}</span>
+              </div>
+              <div class="mb-2">
+                <span class="badge bg-success rounded-pill px-3 py-1">
+                  <i class="bi bi-check-circle me-1"></i> Confirmed
+                </span>
+              </div>
+              <div class="d-flex gap-2 mt-3">
+                <button class="btn btn-outline-primary btn-sm flex-fill" onclick="showToast('Appointment details loaded')">
+                  <i class="bi bi-info-circle"></i> Details
+                </button>
+                <button class="btn btn-success btn-sm flex-fill" onclick="showToast('Joining video call!')">
+                  <i class="bi bi-camera-video"></i> Video Call
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="text-center text-muted mt-4">
+        <i class="bi bi-calendar-x fs-1"></i>
+        <div>No upcoming appointments found.</div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+
+    <!-- Health Tracker Section -->
+    <section id="health" class="section-tab d-none">
+      <div class="card mt-2">
+        <div class="card-header"><i class="bi bi-heart-pulse"></i> Health Tracker</div>
+        <div class="card-body">
+
+  <!-- Existing Health Update Form -->
+  <form method="POST" action="/update-patient" class="row g-3">
+    <div class="col-12 col-md-4">
+      <label class="form-label">Weight (kg)</label>
+      <input type="number" class="form-control" name="weight" value="{{ patient.weight or '' }}">
+    </div>
+
+    <div class="col-12 col-md-4">
+      <label class="form-label">Blood Pressure (mmHg)</label>
+      <input type="text" class="form-control" name="blood_pressure" value="{{ patient.blood_pressure or '' }}">
+    </div>
+
+    <div class="col-12 col-md-4">
+      <label class="form-label">Blood Sugar (mg/dL)</label>
+      <input type="number" class="form-control" name="blood_sugar" value="{{ patient.blood_sugar or '' }}">
+    </div>
+
+    <div class="col-12">
+      <label class="form-label">Symptoms</label>
+      <textarea class="form-control" name="symptoms" rows="2" placeholder="Describe any new symptoms...">{{ patient.symptoms or '' }}</textarea>
+    </div>
+
+    <div class="col-12">
+      <button class="btn btn-success" type="submit">Update Health Data</button>
+    </div>
+  </form>
+
+  <hr class="my-4">
+
+  <!-- Report Upload Form -->
+  <h5>Upload Health Report</h5>
+  <form action="/upload-report" method="POST" enctype="multipart/form-data" class="row g-3 mb-3">
+    <div class="col-md-6">
+      <label class="form-label">Report Title</label>
+      <input type="text" name="title" class="form-control" placeholder="e.g., Blood Sugar Report" required>
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Select PDF/DOC</label>
+      <input type="file" name="report_file" class="form-control" accept=".pdf,.doc,.docx" required>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">
+        <i class="bi bi-upload"></i> Upload Report
+      </button>
+    </div>
+  </form>
+
+  <!-- Uploaded Reports List -->
+  <h5 class="mt-4">My Uploaded Reports</h5>
+  <ul class="list-group">
+    {% for report in patient.reports %}
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <div>
+        <strong>{{ report.title }}</strong>
+        <div class="small text-muted">Uploaded on {{ report.upload_date }}</div>
+      </div>
+      <a href="{{ url_for('static', filename='uploads/' ~ report.filename) }}" target="_blank" class="btn btn-sm btn-outline-info">
+        <i class="bi bi-file-earmark-arrow-down"></i> View
+      </a>
+    </li>
+    {% else %}
+    <li class="list-group-item text-muted">No reports uploaded yet.</li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+      </div>
+    </section>
+
+    <!-- Chat Section -->
+    <section id="chat" class="section-tab d-none">
+      
+      <div class="card mt-2">
+          <div class="card mb-3">
+            <div class="card-header"><i class="bi bi-robot"></i> Pregnancy AI Assistant</div>
+            <div class="card-body">
+              <div class="chat-container" id="aiChat">
+                <div class="ai-message">How can I help you today?</div>
+              </div>
+
+<!--               
+              <div class="input-group mt-2">
+                <input type="text" class="form-control" id="aiInput" placeholder="Ask about pregnancy...">
+                <button class="btn btn-primary" id="aiSend"><i class="bi bi-send"></i></button>
+            <form action="/upload-report" method="POST" enctype="multipart/form-data" class="mt-3">
+                <div class="row g-2">
+                  <div class="col-md-6">
+                    <input type="text" name="title" class="form-control" placeholder="Report title" required>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="file" name="report_file" class="form-control" accept=".pdf,.doc,.docx" required>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-outline-info btn-sm mt-2 w-100">
+                  <i class="bi bi-upload"></i> Upload Report to Care Team
+                </button>
+              </form>
+
+              </div> -->
+
+              <!-- ChatGPT-like input with optional file upload -->
+<!-- Chat Messages Box -->
+<div id="chat-messages" class="chat-box p-3 mb-2" style="height: 400px; overflow-y: auto; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #ddd;">
+  <!-- Messages will be injected here -->
+</div>
+
+<!-- Chat Input + File Upload -->
+<form id="chatForm" class="input-group" enctype="multipart/form-data">
+  <!-- Hidden File Input -->
+  <input type="file" name="file" id="fileInput" style="display: none;" accept=".pdf,.doc,.docx">
+
+  <!-- Plus icon -->
+  <button type="button" class="btn btn-outline-secondary" id="fileTrigger">
+    <i class="bi bi-plus-lg"></i>
+  </button>
+
+  <!-- Text input -->
+  <input type="text" class="form-control" id="aiInput" name="message" placeholder="Ask something or upload a file...">
+
+  <!-- Send button -->
+  <button type="submit" class="btn btn-primary">
+    <i class="bi bi-send"></i>
+  </button>
+</form>
+
+<script>
+document.getElementById('fileTrigger').addEventListener('click', function () {
+  document.getElementById('fileInput').click();
+});
+
+document.getElementById('fileInput').addEventListener('change', function () {
+  const file = this.files[0];
+  if (file) {
+    const chatBox = document.getElementById('chat-messages');
+    chatBox.innerHTML += `
+      <div class="d-flex justify-content-end mb-2">
+        <div class="bg-primary text-white rounded px-3 py-2" style="max-width: 75%;">
+          📎 Selected: <em>${file.name}</em>
+        </div>
+      </div>`;
+    chatBox.scrollTop = chatBox.scrollHeight;
+  }
+});
+
+document.getElementById('chatForm').addEventListener('submit', async function (e) {
+  e.preventDefault();
+
+  const message = document.getElementById('aiInput').value;
+  const file = document.getElementById('fileInput').files[0];
+  const chatBox = document.getElementById('chat-messages');
+  const formData = new FormData();
+
+  if (message) formData.append('message', message);
+  if (file) formData.append('file', file);
+
+  if (!message && !file) {
+    alert("Please type something or choose a file.");
+    return;
+  }
+
+  // Display user message immediately
+  if (message) {
+    chatBox.innerHTML += `
+      <div class="d-flex justify-content-end mb-2">
+        <div class="bg-primary text-white rounded px-3 py-2" style="max-width: 75%;">
+          ${message}
+        </div>
+      </div>`;
+  }
+
+  document.getElementById('aiInput').value = '';
+  document.getElementById('fileInput').value = '';
+
+  try {
+    const res = await fetch('/analyze-chat', {
+      method: 'POST',
+      body: formData
+    });
+
+    const data = await res.json();
+    const reply = data.reply || "No response from assistant.";
+
+    chatBox.innerHTML += `
+      <div class="d-flex justify-content-start mb-2">
+        <div class="bg-light border rounded px-3 py-2" style="max-width: 75%;">
+          🤖 ${reply}
+        </div>
+      </div>`;
+
+    chatBox.scrollTop = chatBox.scrollHeight;
+  } catch (err) {
+    chatBox.innerHTML += `
+      <div class="d-flex justify-content-start mb-2">
+        <div class="bg-danger text-white rounded px-3 py-2">
+          ❌ Error contacting assistant.
+        </div>
+      </div>`;
+    console.error(err);
+  }
+});
+</script>
+
+              
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Settings Section -->
+    <section id="settings" class="section-tab d-none">
+      <div class="card mt-2">
+        <div class="card-header"><i class="bi bi-gear"></i> Settings</div>
+        <div class="card-body">
+          <label class="form-label">Notification Preferences</label>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" checked>
+            <label class="form-check-label">Appointment Reminders</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" checked>
+            <label class="form-check-label">Health Tips</label> 
+          </div>
+          <button class="btn btn-primary mt-3" onclick="showToast('Settings saved!')">Save Settings</button>
+          <button class="btn btn-primary mt-3" onclick="showToast('Logout Successfully')">Logout</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Toast for feedback -->
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index:1055">
+    <div id="liveToast" class="toast align-items-center text-bg-info border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body" id="toastMsg"></div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Bootstrap JS & Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    // Navigation
+    document.querySelectorAll('#mainTabs .nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelectorAll('#mainTabs .nav-link').forEach(n => n.classList.remove('active'));
+        this.classList.add('active');
+        let section = this.getAttribute('data-section');
+        document.querySelectorAll('.section-tab').forEach(sec => sec.classList.add('d-none'));
+        document.getElementById(section).classList.remove('d-none');
+      });
+    });
+    function showTab(tab) {
+      document.querySelectorAll('#mainTabs .nav-link').forEach(n => n.classList.remove('active'));
+      document.querySelector(`.nav-link[data-section="${tab}"]`).classList.add('active');
+      document.querySelectorAll('.section-tab').forEach(sec => sec.classList.add('d-none'));
+      document.getElementById(tab).classList.remove('d-none');
+    }
+
+    // Chat Bot
+    
+
+    // // AI Assistant
+
+        document.getElementById('aiSend').onclick = function() {
+          const input = document.getElementById('aiInput');
+          const msg = input.value.trim();
+          if (!msg) return;
+
+          const chat = document.getElementById('aiChat');
+
+          const user = document.createElement('div');
+          user.className = 'user-message';
+          user.textContent = msg;
+          chat.appendChild(user);
+          input.value = '';
+
+          fetch('/api/send', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: msg })
+          })
+          .then(res => res.json())
+          .then(data => {
+            const ai = document.createElement('div');
+            ai.className = 'ai-message';
+            ai.innerHTML = `<b>AI:</b> ${data.reply}`;
+            chat.appendChild(ai);
+            chat.scrollTop = chat.scrollHeight;
+          })
+          .catch(() => {
+            const error = document.createElement('div');
+            error.className = 'ai-message';
+            error.innerHTML = `<b>AI:</b> Sorry, something went wrong.`;
+            chat.appendChild(error);
+            chat.scrollTop = chat.scrollHeight;
+          });
+        };
+
+    // Chat with Care Team
+    document.getElementById('chatSend').onclick = function() {
+      let input = document.getElementById('chatInput');
+      let msg = input.value.trim();
+      if(!msg) return;
+      let chat = document.getElementById('chatMsg');
+      let user = document.createElement('div');
+      user.className = 'user-message';
+      user.textContent = msg;
+      chat.appendChild(user);
+      input.value = '';
+      setTimeout(() => {
+        let ai = document.createElement('div');
+        ai.className = 'ai-message';
+        ai.innerHTML = `<b>Dr. Jane Doe:</b> Thank you for your message.`;
+        chat.appendChild(ai);
+        chat.scrollTop = chat.scrollHeight;
+      }, 900);
+    };
+
+    // Toast feedback
+    function showToast(msg) {
+      document.getElementById('toastMsg').textContent = msg;
+      let toast = new bootstrap.Toast(document.getElementById('liveToast'));
+      toast.show();
+    }
+
+    // Real-time metric simulation
+    setInterval(() => {
+      document.getElementById('bpValue').textContent = (120 + Math.floor(Math.random()*3)) + '/' + (75 + Math.floor(Math.random()*3));
+      document.getElementById('weightValue').textContent = (68 + Math.random()).toFixed(1) + ' kg';
+      document.getElementById('sugarValue').textContent = 95 + Math.floor(Math.random()*5);
+    }, 8000);
+  </script>
+</body>
+</html>
